@@ -8,3 +8,4 @@ xcodeproj 'GifSearcher'
 
 pod 'ReactiveCocoa', '3.0.0-swift2'
 pod 'Alamofire', '~> 2.0'
+pod 'FLAnimatedImage', '~> 1.0'

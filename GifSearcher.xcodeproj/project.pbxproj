@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCBD44951BB0D08300BFB652 /* GifSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD44941BB0D08300BFB652 /* GifSearchViewModel.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44971BB0D28B00BFB652 /* GifViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD44961BB0D28B00BFB652 /* GifViewModel.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44991BB0D33600BFB652 /* GifSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD44981BB0D33600BFB652 /* GifSearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44A01BB0D3F200BFB652 /* ReactiveCocoaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD449D1BB0D3F200BFB652 /* ReactiveCocoaExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44A11BB0D3F200BFB652 /* TableViewBindingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD449E1BB0D3F200BFB652 /* TableViewBindingHelper.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44A21BB0D3F200BFB652 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD449F1BB0D3F200BFB652 /* UIKitExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44A41BB1985B00BFB652 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD44A31BB1985B00BFB652 /* Gif.swift */; settings = {ASSET_TAGS = (); }; };
+		DCBD44A81BB19C4B00BFB652 /* GifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBD44A61BB19C4B00BFB652 /* GifCell.xib */; settings = {ASSET_TAGS = (); }; };
+		DCBD44A91BB19C4B00BFB652 /* GifCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD44A71BB19C4B00BFB652 /* GifCellView.swift */; settings = {ASSET_TAGS = (); }; };
 		DCC28D7D1BADD0D700D8AE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC28D7C1BADD0D700D8AE66 /* AppDelegate.swift */; };
-		DCC28D7F1BADD0D700D8AE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC28D7E1BADD0D700D8AE66 /* ViewController.swift */; };
 		DCC28D821BADD0D700D8AE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC28D801BADD0D700D8AE66 /* Main.storyboard */; };
 		DCC28D841BADD0D700D8AE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC28D831BADD0D700D8AE66 /* Assets.xcassets */; };
 		DCC28D871BADD0D700D8AE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC28D851BADD0D700D8AE66 /* LaunchScreen.storyboard */; };
+		DCC28D971BADE7FF00D8AE66 /* GifSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC28D961BADE7FF00D8AE66 /* GifSearchService.swift */; settings = {ASSET_TAGS = (); }; };
 		FECAA58B27F180C27BDE14BB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64387FDAAB9370E3FF99C6A1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -19,13 +28,23 @@
 		253BE569003E1A070879CFF2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		64387FDAAB9370E3FF99C6A1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73257B4A4CAEAE9036332E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DCBD44941BB0D08300BFB652 /* GifSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifSearchViewModel.swift; sourceTree = "<group>"; };
+		DCBD44961BB0D28B00BFB652 /* GifViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifViewModel.swift; sourceTree = "<group>"; };
+		DCBD44981BB0D33600BFB652 /* GifSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifSearchViewController.swift; sourceTree = "<group>"; };
+		DCBD449D1BB0D3F200BFB652 /* ReactiveCocoaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveCocoaExtensions.swift; path = Util/ReactiveCocoaExtensions.swift; sourceTree = "<group>"; };
+		DCBD449E1BB0D3F200BFB652 /* TableViewBindingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewBindingHelper.swift; path = Util/TableViewBindingHelper.swift; sourceTree = "<group>"; };
+		DCBD449F1BB0D3F200BFB652 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Util/UIKitExtensions.swift; sourceTree = "<group>"; };
+		DCBD44A31BB1985B00BFB652 /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		DCBD44A51BB1991500BFB652 /* ObjCBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridgingHeader.h; sourceTree = "<group>"; };
+		DCBD44A61BB19C4B00BFB652 /* GifCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GifCell.xib; sourceTree = "<group>"; };
+		DCBD44A71BB19C4B00BFB652 /* GifCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifCellView.swift; sourceTree = "<group>"; };
 		DCC28D791BADD0D700D8AE66 /* GifSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC28D7C1BADD0D700D8AE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCC28D7E1BADD0D700D8AE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCC28D811BADD0D700D8AE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCC28D831BADD0D700D8AE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC28D861BADD0D700D8AE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC28D881BADD0D700D8AE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC28D961BADE7FF00D8AE66 /* GifSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifSearchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +65,16 @@
 				64387FDAAB9370E3FF99C6A1 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBD449C1BB0D3DE00BFB652 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD449D1BB0D3F200BFB652 /* ReactiveCocoaExtensions.swift */,
+				DCBD449F1BB0D3F200BFB652 /* UIKitExtensions.swift */,
+				DCBD449E1BB0D3F200BFB652 /* TableViewBindingHelper.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		DCC28D701BADD0D700D8AE66 = {
@@ -69,8 +98,16 @@
 		DCC28D7B1BADD0D700D8AE66 /* GifSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				DCBD44A51BB1991500BFB652 /* ObjCBridgingHeader.h */,
 				DCC28D7C1BADD0D700D8AE66 /* AppDelegate.swift */,
-				DCC28D7E1BADD0D700D8AE66 /* ViewController.swift */,
+				DCBD44981BB0D33600BFB652 /* GifSearchViewController.swift */,
+				DCC28D961BADE7FF00D8AE66 /* GifSearchService.swift */,
+				DCBD44941BB0D08300BFB652 /* GifSearchViewModel.swift */,
+				DCBD44961BB0D28B00BFB652 /* GifViewModel.swift */,
+				DCBD44A61BB19C4B00BFB652 /* GifCell.xib */,
+				DCBD44A71BB19C4B00BFB652 /* GifCellView.swift */,
+				DCBD44A31BB1985B00BFB652 /* Gif.swift */,
+				DCBD449C1BB0D3DE00BFB652 /* Util */,
 				DCC28D801BADD0D700D8AE66 /* Main.storyboard */,
 				DCC28D831BADD0D700D8AE66 /* Assets.xcassets */,
 				DCC28D851BADD0D700D8AE66 /* LaunchScreen.storyboard */,
@@ -150,6 +187,7 @@
 			files = (
 				DCC28D871BADD0D700D8AE66 /* LaunchScreen.storyboard in Resources */,
 				DCC28D841BADD0D700D8AE66 /* Assets.xcassets in Resources */,
+				DCBD44A81BB19C4B00BFB652 /* GifCell.xib in Resources */,
 				DCC28D821BADD0D700D8AE66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,8 +247,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC28D7F1BADD0D700D8AE66 /* ViewController.swift in Sources */,
+				DCBD44A91BB19C4B00BFB652 /* GifCellView.swift in Sources */,
+				DCC28D971BADE7FF00D8AE66 /* GifSearchService.swift in Sources */,
+				DCBD44A01BB0D3F200BFB652 /* ReactiveCocoaExtensions.swift in Sources */,
+				DCBD44A21BB0D3F200BFB652 /* UIKitExtensions.swift in Sources */,
+				DCBD44971BB0D28B00BFB652 /* GifViewModel.swift in Sources */,
+				DCBD44A41BB1985B00BFB652 /* Gif.swift in Sources */,
 				DCC28D7D1BADD0D700D8AE66 /* AppDelegate.swift in Sources */,
+				DCBD44A11BB0D3F200BFB652 /* TableViewBindingHelper.swift in Sources */,
+				DCBD44951BB0D08300BFB652 /* GifSearchViewModel.swift in Sources */,
+				DCBD44991BB0D33600BFB652 /* GifSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +322,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = GifSearcher/ObjCBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -313,6 +360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = GifSearcher/ObjCBridgingHeader.h;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -326,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multitouchproducts.GifSearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = GifSearcher/ObjCBridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -338,6 +387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multitouchproducts.GifSearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = GifSearcher/ObjCBridgingHeader.h;
 			};
 			name = Release;
 		};

@@ -1,5 +1,6 @@
 PODS:
-  - Alamofire (2.0.1)
+  - Alamofire (2.0.2)
+  - FLAnimatedImage (1.0.8)
   - ReactiveCocoa (3.0.0-swift2):
     - ReactiveCocoa/UI (= 3.0.0-swift2)
     - Result (~> 0.6-beta.1)
@@ -15,10 +16,12 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 2.0)
+  - FLAnimatedImage (~> 1.0)
   - ReactiveCocoa (= 3.0.0-swift2)
 
 SPEC CHECKSUMS:
-  Alamofire: 1d8e208d616fbbfd2391b15eae766d07c96cdc49
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
   ReactiveCocoa: b17191e37a655ff35d095040a203ecd9dd04e8bd
   Result: af24e3e57ab81005ec4221a53fd36dc1e7a52869
 
